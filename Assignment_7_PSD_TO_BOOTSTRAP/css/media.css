@@ -1,0 +1,845 @@
+/**********   xs   **********/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*COMMON */
+    .nopad {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .col {
+        width: 50% !important;
+    }
+
+    .orangebtn {
+        padding: 10px 20px;
+        font-size: 11px;
+        min-width: 150px;
+        margin: 10px 3px;
+    }
+
+    .lefty_center {
+        text-align: center;
+    }
+
+    .righty_center {
+        text-align: center;
+    }
+
+    /*NAVBAR*/
+    .navigation {
+        padding-top: 10px;
+    }
+
+    .logo {
+        height: 35px;
+    }
+
+    .nav-link {
+        background-color: #f4f5f9;
+        color: black;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    /*BANNER*/
+    .banner_area {}
+
+    .banner_texts {
+        margin-top: 20px;
+    }
+
+    .banner_area h4 {
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner_area h1 {
+        font-size: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner_area p {
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner_btn1,
+    .banner_btn2 {
+        padding: 10px 20px;
+        font-size: 11px;
+        min-width: 150px;
+        margin: 10px 3px;
+    }
+
+    /*SEC-1*/
+    /*not needed till now*/
+
+    /*SEC-2 our history*/
+    .sec2,
+    .sec3_padding,
+    .sec5,
+    .sec7,
+    .sec9,
+    .sec10,
+    .sec11 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .sec2 h1 {
+        font-size: 26px;
+        margin-top: 40px;
+    }
+
+    .sec2 p {
+        font-size: 13px;
+    }
+
+    /*SEC-3 our services*/
+    .divider_icons {
+        display: none;
+    }
+
+    .sec3_padding {
+        padding-right: 20px;
+    }
+
+    .sec3 h1,
+    .sec4_texts h1,
+    .sec5 h1,
+    .sec7 h1,
+    .sec8 h1,
+    .sec9 h1,
+    .sec10 h1,
+    .sec11 h1 {
+        font-size: 26px;
+    }
+
+    .sec3 h4 {
+        font-size: 16px;
+    }
+
+    .sec3 p,
+    .sec4_texts p,
+    .sec4_texts a,
+    .sec5 p,
+    .sec7 p,
+    .sec8 p,
+    .sec9 p,
+    .sec10 p,
+    .sec11 p {
+        font-size: 13px;
+    }
+
+    .services_banner img {
+        height: auto;
+        display: none;
+    }
+
+
+
+    /*SEC-4 recent works*/
+    .sec4 {
+        padding-top: 50px;
+    }
+
+
+
+    /*SEC-5 case study*/
+
+    .sec5 {
+        padding-bottom: 0px !important;
+    }
+
+    .sec5_items {
+        position: relative;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 50px;
+        width: auto;
+        height: auto;
+    }
+
+
+    /*SEC-6 likes*/
+    .sec6 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .sec6_part h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .sec6_part p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .sec6_icon {
+        padding: 20px 20px;
+    }
+
+    .sec6_icon5 {
+        padding: 20px 25px !important;
+    }
+
+
+    /*SEC-7 our pricing*/
+    .sec7_heading {
+        height: 130px;
+    }
+
+    .sec7_heading h3 {
+        font-size: 18px;
+    }
+
+    .dollarcircle {
+        padding: 20px 0px;
+        width: 90px;
+        left: 38%;
+        margin-top: 30px;
+    }
+
+    .dollarcircle h1 {
+        font-size: 24px !important;
+        line-height: 15px;
+    }
+
+    .dollarcircle small {
+        font-size: 10px !important;
+    }
+
+    .sec7_content {
+        padding-top: 70px;
+        padding-bottom: 25px;
+    }
+
+    .sec7_content p {
+        font-size: 13px !important;
+        line-height: 35px;
+        margin-bottom: 0px;
+    }
+
+    .pricing_mgn {
+        margin-bottom: 10px !important;
+    }
+
+    .plan_btn {
+        font-size: 12px;
+        min-width: 150px;
+        padding: 10px 50px;
+    }
+
+
+
+    /*SEC-8 our team*/
+    /*not done yet*/
+
+
+    /*SEC-9 great integrations */
+    .sec9 h1 {
+        line-height: 35px !important;
+    }
+
+    .brands {
+        padding: 20px 10px;
+        margin: 5px -10px;
+    }
+
+    .brands img,
+    .brands2 img {
+        height: 20px;
+        width: 100px;
+    }
+
+    /*SEC-10 our blog*/
+
+    .triangle {
+        left: 45.5%;
+        bottom: -7%;
+        transform: rotate(90deg);
+    }
+
+    .triangle2 {
+        left: 45.5%;
+        bottom: 91%;
+        transform: rotate(90deg);
+    }
+
+    .borderblog {
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+    }
+
+    /*SEC-11 keep in touch*/
+    .sec11_part {
+        padding: 50px 50px;
+    }
+
+    .sec11_part h4 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+
+    /*FOOTER*/
+    .footer {
+        height: 350px;
+    }
+
+    .footer h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .last ul {
+        text-align: center;
+    }
+
+    .last li {
+        font-size: 12px;
+    }
+
+    .last p {
+        text-align: center;
+        font-size: 12px;
+
+    }
+
+
+
+}
+
+
+/**********   sm   **********/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    /*COMMON */
+    .nopad {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .col {
+        width: 50% !important;
+    }
+
+    .orangebtn {
+        padding: 15px 50px;
+        font-size: 13px;
+        min-width: 200px;
+        margin: 10px 3px;
+    }
+
+    .lefty_center {
+        text-align: center;
+    }
+
+    .righty_center {
+        text-align: center;
+    }
+
+    /*NAVBAR*/
+    .navigation {
+        padding-top: 10px;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .nav-link {
+        background-color: #f4f5f9;
+        color: black;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    /*BANNER*/
+    .banner_area {}
+
+    .banner_texts {
+        margin-top: 20px;
+    }
+
+    .banner_area h4 {
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner_area h1 {
+        font-size: 41px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner_area p {
+        font-size: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner_btn1,
+    .banner_btn2 {
+        padding: 15px 50px;
+        font-size: 12px;
+        min-width: 200px;
+        margin: 10px 3px;
+    }
+
+    /*SEC-1*/
+    /*not needed till now*/
+
+    /*SEC-2 our history*/
+    .sec2,
+    .sec3_padding,
+    .sec5,
+    .sec7,
+    .sec9,
+    .sec10,
+    .sec11 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .sec2 h1 {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+
+    .sec2 p {
+        font-size: 14px;
+    }
+
+    /*SEC-3 our services*/
+    .divider_icons {
+        display: none;
+    }
+
+    .sec3_padding {
+        padding-right: 20px;
+    }
+
+    .sec3 h1,
+    .sec4_texts h1,
+    .sec5 h1,
+    .sec7 h1,
+    .sec8 h1,
+    .sec9 h1,
+    .sec10 h1,
+    .sec11 h1 {
+        font-size: 28px;
+    }
+
+    .sec3 h4 {
+        font-size: 18px;
+    }
+
+    .sec3 p,
+    .sec4_texts p,
+    .sec4_texts a,
+    .sec5 p,
+    .sec7 p,
+    .sec8 p,
+    .sec9 p,
+    .sec10 p,
+    .sec11 p {
+        font-size: 14px;
+    }
+
+    .services_banner img {
+        height: auto;
+        display: none;
+    }
+
+
+
+    /*SEC-4 recent works*/
+    .sec4 {
+        padding-top: 50px;
+    }
+
+
+
+    /*SEC-5 case study*/
+
+    .sec5 {
+        padding-bottom: 0px !important;
+    }
+
+    .sec5_items {
+        position: relative;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 50px;
+        width: auto;
+        height: auto;
+    }
+
+
+    /*SEC-6 likes*/
+    .sec6 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .sec6_part h3 {
+        font-size: 21px;
+        line-height: 20px;
+    }
+
+    .sec6_part p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .sec6_icon {
+        padding: 20px 20px;
+    }
+
+    .sec6_icon5 {
+        padding: 20px 25px !important;
+    }
+
+
+    /*SEC-7 our pricing*/
+    .sec7_heading {
+        height: 130px;
+    }
+
+    .sec7_heading h3 {
+        font-size: 23px;
+    }
+
+    .dollarcircle {
+        padding: 20px 0px;
+        width: 90px;
+        left: 41.5%;
+        margin-top: 30px;
+    }
+
+    .dollarcircle h1 {
+        font-size: 25px !important;
+        line-height: 15px;
+    }
+
+    .dollarcircle small {
+        font-size: 11px !important;
+    }
+
+    .sec7_content {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .sec7_content p {
+        font-size: 14px !important;
+        line-height: 35px;
+
+    }
+
+    .pricing_mgn {
+        margin-bottom: 10px !important;
+    }
+
+    .plan_btn {
+        font-size: 14px;
+        min-width: 230px;
+        padding: 15px 50px;
+    }
+
+
+
+    /*SEC-8 our team*/
+    /*not done yet*/
+
+
+    /*SEC-9 great integrations */
+    .sec9 h1 {
+        line-height: 35px !important;
+    }
+
+    .brands {
+        padding: 20px 10px;
+        margin: 5px -10px;
+    }
+
+    .brands img,
+    .brands2 img {
+        height: 20px;
+        width: 100px;
+    }
+
+    /*SEC-10 our blog*/
+
+    .triangle {
+        left: 94%;
+    }
+
+    .triangle2 {}
+
+    .blog1_2 small,
+    .blog3_4 small {
+        font-size: 9px;
+
+    }
+
+    .blog1_2 p,
+    .blog3_4 p {
+        font-size: 10px;
+        line-height: 18px;
+
+    }
+
+    .borderblog {
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+    }
+
+    /*SEC-11 keep in touch*/
+    .sec11_part {
+        padding: 50px 50px;
+    }
+
+    .sec11_part h4 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+
+    /*FOOTER*/
+    .footer {
+        height: 350px;
+    }
+
+    .footer h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+
+    .last ul {
+        text-align: center;
+    }
+
+    .last li {
+        font-size: 13px;
+    }
+
+    .last p {
+        text-align: center;
+        font-size: 13px;
+
+    }
+
+
+
+}
+
+
+/**********   md   **********/
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    /*NAVBAR*/
+    .nav-link {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .sec3_padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+
+    .sec3 h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sec3 p {
+        font-size: 13px;
+
+    }
+
+    .divider_icons {
+        right: -12.5%;
+    }
+
+    .sec5 {
+        padding-bottom: 0px;
+    }
+
+    .sec5_items {
+        width: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        margin-top: 40px;
+        height: 500px;
+
+    }
+
+    .sec5_icon {
+        padding: 15px 20px;
+
+    }
+
+    .sec5_items h3 {
+        font-size: 15px;
+    }
+
+    .sec5_items p {
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+
+    .dotclass {
+        margin-top: 10px;
+    }
+
+    .dot {
+        width: 5px;
+        height: 5px;
+        margin-left: 3px;
+        margin-right: 3px;
+
+    }
+
+    .overwriteimg {
+        height: 80%;
+    }
+
+    .sec7_heading {
+        height: 160px;
+
+    }
+
+    .dollarcircle {
+        padding: 25px 0px;
+        width: 110px;
+        left: 25%;
+        margin-top: 45px;
+
+    }
+
+
+    .sec7_content p {
+        font-size: 12px !important;
+
+    }
+
+    .plan_btn {
+        font-size: 13px;
+        min-width: 140px;
+        padding: 15px 30px;
+
+    }
+
+    .brands {
+        padding: 20px 10px;
+        margin: 5px -10px;
+    }
+
+    .brands img,
+    .brands2 img {
+        height: 40px;
+        width: 100px;
+    }
+
+    .borderblog {
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+    }
+
+    .triangle {
+        left: 96%;
+
+    }
+
+    .sec11_part {
+        padding: 50px 50px;
+    }
+
+    .sec11_part h4 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+
+
+
+
+
+}
+
+
+/**********   lg   **********/
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .divider_icons {
+        right: -9.5%;
+    }
+
+    .dollarcircle {
+        left: 28.5%;
+
+    }
+    
+
+    .sec5_items {
+        width: 520px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 30px;
+        margin-top: 40px;
+        height: 480px;
+
+    }
+
+    .sec5_icon {
+        padding: 15px 20px;
+
+    }
+
+    .sec5_items p {
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+
+
+    .dot {
+        width: 10px;
+        height: 10px;
+        margin-left: 3px;
+        margin-right: 3px;
+
+    }
+
+}
+
+
+/**********   xl   **********/
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

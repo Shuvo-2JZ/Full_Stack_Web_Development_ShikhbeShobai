@@ -1,0 +1,67 @@
+/*xs*/
+@media (max-width: 575.98px) {
+
+
+    .display_no_big {
+        display: block;
+    }
+
+    .display_yes_big {
+        display: none;
+    }
+
+
+
+}
+
+
+/*sm*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .base_dark {
+        margin-top: 5px;
+        margin-right: 10px;
+        /* position: absolute; */
+    }
+
+    .content_dark_sky p {
+        padding-top: 150px;
+        padding-bottom: 150px;
+
+    }
+
+    .head_display {
+        display: block;
+    }
+
+    .lala {
+        display: none;
+    }
+
+
+
+}
+
+
+/*md*/
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    .content_dark_sky p {
+        padding-top: 95px;
+        padding-bottom: 95px;
+
+    }
+
+
+}
+
+/*lg*/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*lg*/
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

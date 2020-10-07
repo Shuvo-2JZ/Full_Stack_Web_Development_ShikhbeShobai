@@ -1,0 +1,495 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .container {
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .column-sub {
+        width: 100%;
+        text-align: center;
+    }
+
+    .column-33 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .column-25 {
+        width: 50%;
+        text-align: center;
+    }
+
+
+
+    .logo {
+        text-align: center;
+        margin-bottom: 0px;
+
+    }
+
+    .navigation {
+        text-align: center;
+    }
+
+    .navigation li {
+        padding-top: 0px;
+    }
+
+    .navigation li a {
+        margin: 5px;
+
+    }
+
+    .basicblue-btn {
+        margin-bottom: 20px;
+    }
+
+
+    .banner_area {
+        height: auto;
+        width: 100%;
+
+    }
+
+    .ban-padding {
+        padding-top: 0px;
+
+    }
+
+
+    .tryfree-btn {
+        margin-left: 3px;
+
+    }
+
+
+
+    .d-flex {
+        display: block;
+    }
+
+    .sec-h1 {
+        font-size: 35px;
+    }
+
+    .osr {
+        width: 80%;
+    }
+
+
+    .designation {
+        margin-left: 0px;
+    }
+
+    .sec3-pad {
+        padding-top: 50px;
+    }
+
+    .expert-margin-right,
+    .expert-margin-left {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    .sec-padding {
+        padding-top: 50px;
+
+    }
+
+    .sec5-padding {
+
+        padding-top: 10px;
+
+    }
+
+    .designation h2 {
+        padding-top: 0px;
+
+    }
+
+
+
+    .mid-margin {
+        margin-bottom: 30px;
+    }
+
+    .pp-padding {
+        padding-left: 0px;
+    }
+
+
+
+
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .column-sub {
+        width: 100%;
+        text-align: center;
+    }
+
+    .column-33 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .column-25 {
+        width: 50%;
+        text-align: center;
+    }
+
+
+
+    .logo {
+        text-align: center;
+        margin-bottom: 0px;
+
+    }
+
+    .navigation {
+        text-align: center;
+    }
+
+    .navigation li {
+        padding-top: 0px;
+    }
+
+    .navigation li a {
+        margin: 5px;
+
+    }
+
+    .basicblue-btn {
+        margin-bottom: 20px;
+    }
+
+
+    .banner_area {
+        height: auto;
+        width: 100%;
+
+    }
+
+    .ban-padding {
+        padding-top: 0px;
+
+    }
+
+
+    .tryfree-btn {
+        margin-left: 10px;
+
+    }
+
+
+
+    .d-flex {
+        display: block;
+    }
+
+    .sec-h1 {
+        font-size: 35px;
+    }
+
+    .osr {
+        width: 80%;
+    }
+
+
+    .designation {
+        margin-left: 0px;
+    }
+
+    .designation h2 {
+        padding-top: 0px;
+
+    }
+
+
+    .expert-margin-right,
+    .expert-margin-left {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    .sec-padding {
+        padding-top: 50px;
+
+    }
+
+    .sec5-padding {
+
+        padding-top: 10px;
+
+    }
+
+
+
+
+    .mid-margin {
+        margin-bottom: 30px;
+    }
+
+    .pp-padding {
+        padding-left: 0px;
+    }
+
+
+
+
+
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        padding-left: 50px;
+        margin-bottom: 0px;
+
+    }
+
+    .navigation {
+        text-align: center;
+        margin-left: -100px;
+    }
+
+    .small-padding {
+        padding-top: 50px;
+    }
+
+
+
+    .banner-h1 {
+        font-size: 32px;
+        margin-top: -5px;
+    }
+
+    .banner-h1-bold {
+        font-size: 32px;
+        margin-top: -20px;
+    }
+
+    .banner-p {
+        margin-top: -20px;
+    }
+
+    .sec1-pad {
+        padding-left: 30px;
+    }
+
+    .sec-h1 {
+        font-size: 30px;
+
+
+    }
+
+    .sec-p {
+        margin-top: -20px;
+
+    }
+
+    .osr {
+        width: 95%;
+        padding-right: 20px;
+    }
+
+    .designation {
+        padding-left: 70px;
+    }
+
+    .designation h2 {
+        font-size: 18.5px;
+        padding-top: 30px;
+
+    }
+
+    .designation p {
+        margin-top: -13px;
+
+    }
+
+    .star-btn {
+
+        padding: 2px 5px;
+        border-radius: 20px;
+        text-align: center;
+
+        font-size: 8px;
+        margin-left: 3px;
+
+    }
+
+    .star {
+        margin-left: 5px;
+    }
+
+    .sub-txt {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 13px;
+    }
+
+    .mid-txt {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .btn-mgn {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .templune {
+        padding-right: 20px;
+    }
+
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        padding-left: 50px;
+        margin-bottom: 0px;
+
+    }
+
+    .navigation {
+        text-align: center;
+        margin-left: -100px;
+    }
+
+    .small-padding {
+        padding-top: 50px;
+    }
+
+
+
+    .banner-h1 {
+        font-size: 32px;
+        margin-top: -5px;
+    }
+
+    .banner-h1-bold {
+        font-size: 32px;
+        margin-top: -20px;
+    }
+
+    .banner-p {
+        margin-top: -20px;
+    }
+
+    .sec1-pad {
+        padding-left: 30px;
+    }
+
+    .sec-h1 {
+        font-size: 30px;
+
+
+    }
+
+    .sec-p {
+        margin-top: -20px;
+
+    }
+
+    .osr {
+        width: 95%;
+        padding-right: 20px;
+    }
+
+    .designation {
+        padding-left: 70px;
+    }
+
+    .designation h2 {
+        font-size: 18.5px;
+        padding-top: 30px;
+
+    }
+
+    .designation p {
+        margin-top: -13px;
+
+    }
+
+    .star-btn {
+
+        padding: 2px 5px;
+        border-radius: 20px;
+        text-align: center;
+
+        font-size: 8px;
+        margin-left: 3px;
+
+    }
+
+    .star {
+        margin-left: 5px;
+    }
+
+    .sub-txt {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 13px;
+    }
+
+    .mid-txt {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .btn-mgn {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .templune {
+        padding-right: 20px;
+    }
+
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}

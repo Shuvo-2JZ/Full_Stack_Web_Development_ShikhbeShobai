@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!------fa fa icons-------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!------------google fonts---------------->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!-------------Animate CSS-------------->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-------------My CSS-------------->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+    <!-----------Countdown links------------>
+    <link href="css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/countdown-timer.js"></script>
+
+    <title>Mache</title>
+
+    <!----------Shortcut icon----------->
+    <link rel="shortcut icon" href="images/logo.png">
+
+</head>
+
+
+<body>
+
+
+    <!---------------HEADER STARTS---------------->
+
+    <header class="fixed-top navigation">
+        <div class="container">
+            <!-- A grey horizontal navbar that becomes vertical on small screens -->
+            <nav class="navbar navbar-expand-md navbar-expand-lg">
+
+                <!-- Brand/logo -->
+                <a class="navbar-brand wow bounceInLeft" href="#">
+                    <img src="images/logo.png" alt="logo" class="logo">
+                </a>
+
+                <!----navbar toggle starts----->
+                <button class="navbar-toggler wow fadeIn delay_small" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span><i class="fas fa-bars menubar"></i></span>
+
+                </button>
+                <!----navbar toggle ends----->
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                    <ul class="navbar-nav ml-auto wow fadeInDown">
+                        <li class="nav-item">
+                            <a class="nav-link nav-active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Services</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Prices</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!---------------HEADER ENDS---------------->
+
+    <!----------BANNER AREA STARTS------------>
+
+    <div class="banner_pinkarea">
+        <section class="banner_area d-flex align-items-center" style="background-image: url(images/banner.png); ">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                        <div class="banner_texts">
+
+                            <h1 class="wow pulse"><b class="mache">Mache</b> FREE psd Template</h1>
+                            <hr>
+
+                            <!--                     
+                            <div class="countdown-timer-wrapper wow zoomIn">
+                                <div class="timer" id="countdown">
+                                    <h5>Coming soon in..</h5>
+                                    <div class="timer-wrapper  wow bounceIn item_delay1">
+                                        <div class="time">01</div><span class="text">days</span>
+                                    </div>
+                                    <div class="timer-wrapper wow bounceIn item_delay2">
+                                        <div class="time">23</div><span class="text">hrs</span>
+                                    </div>
+                                    <div class="timer-wrapper wow bounceIn item_delay3">
+                                        <div class="time">59</div><span class="text">mins</span>
+                                    </div>
+                                    <div class="timer-wrapper wow bounceIn item_delay4">
+                                        <div class="time">15</div><span class="text">sec</span>
+                                    </div>
+                                </div>
+                            </div>
+                            -->
+                            <div class="countdown-timer-wrapper wow zoomIn">
+                                <div class="timer" id="countdown"></div>
+                            </div>
+                            <script>
+                                $(document).ready(function() {
+
+                                    var myDate = new Date();
+                                    myDate.setDate(myDate.getDate() + 2);
+                                    $("#countdown").countdown(myDate, function(event) {
+                                        $(this).html(
+                                            event.strftime(
+                                                '<h5>Coming soon in..</h5><div class="timer-wrapper"><div class="time">%D</div><span class="text">days</span></div><div class="timer-wrapper"><div class="time">%H</div><span class="text">hrs</span></div><div class="timer-wrapper"><div class="time">%M</div><span class="text">mins</span></div><div class="timer-wrapper"><div class="time">%S</div><span class="text">secs</span></div>'
+                                            )
+                                        );
+                                    });
+
+                                });
+
+                            </script>
+
+                            <p class="wow fadeIn delay_small">Elegant and clean PSD template, which you can download and use for free!<br>You can easily modify the design to make it your own and help you get your project running faster.</p>
+
+                            <button class="btn pinkbtn mt-4 wow pulse">Show More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!---------- BANNER AREA ENDS------------>
+
+    <!--------------SECTION 1 STARTS------------->
+    <section class="sec1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <h1 class="wow bounceInLeft">Powerful PSD template<br>available for free!</h1>
+                    <hr>
+                    <p class="wow fadeIn delay_smaller">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in </p>
+                    <a href="#" class="wow bounceInLeft delay_small">see the video &nbsp; &nbsp; <i class="fas fa-caret-right"></i></a>
+                </div>
+
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                    <img src="images/MacBook%20Pro.png" alt="macbook" class="img-fluid wow bounceInRight delay_smaller">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------SECTION 1 ENDS------------->
+
+    <!--------------SECTION 2 STARTS------------->
+    <section class="sec2">
+        <div class="container">
+            <h1 class="wow fadeInDown">Our Services</h1>
+            <hr>
+            <p class="wow fadeIn delay_small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <br>et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio</p>
+
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 wow bounceInUp item_delay1">
+                    <div class="sec2_icon">
+                        <img src="images/1.png" alt="1">
+                    </div>
+                    <h4>FULLY EDITABLE</h4>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 wow bounceInUp item_delay2">
+                    <div class="sec2_icon">
+                        <img src="images/2.png" alt="2">
+                    </div>
+                    <h4>FREE DOWNLOAD</h4>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 wow bounceInUp item_delay3">
+                    <div class="sec2_icon">
+                        <img src="images/3.png" alt="3">
+                    </div>
+                    <h4>MODERN DESIGN</h4>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 wow bounceInUp item_delay4">
+                    <div class="sec2_icon">
+                        <img src="images/4.png" alt="4">
+                    </div>
+
+                    <h4>100% RESPONSIVE</h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--------------SECTION 2 ENDS------------->
+
+    <!--------------SECTION 3 STARTS------------->
+    <section class="sec3 d-flex align-items-center" style="background-image: url(images/quote.png);">
+
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner wow zoomIn">
+                    <div class="carousel-item active">
+                        <div class="quote">
+                            <img src="images/left%20comma.png" alt="leftcomma">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor <br>incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam, <br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex. </p>
+
+                            <img src="images/right%20comma.png" alt="rightcomma">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="quote">
+                            <img src="images/left%20comma.png" alt="leftcomma">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor <br>incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam, <br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex. </p>
+
+                            <img src="images/right%20comma.png" alt="rightcomma">
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="quote">
+                            <img src="images/left%20comma.png" alt="leftcomma">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor <br>incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam, <br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex. </p>
+
+                            <img src="images/right%20comma.png" alt="rightcomma">
+                        </div>
+
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--------------SECTION 3 ENDS------------->
+
+    <!--------------SECTION 4 STARTS------------->
+    <section class="sec4">
+        <div class="container">
+            <h1 class="wow fadeInDown">Check Our Prices</h1>
+            <hr>
+            <p class="wow fadeIn delay_small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore<br> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="sec4_texts wow fadeInUp item_delay1">
+                        <div class="sec4_text_head">
+                            <h2><small>$ </small> 19</h2>
+                            <small>per month</small>
+                        </div>
+                        <div class="sec4_text_span">STANDARD</div>
+
+                        <p>5 Projects<br>200 MB Storage<br>Notification settings<br>Password protection</p>
+                        <button class="btn pricepinkbtn mb-5 wow pulse">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="sec4_texts wow fadeInUp item_delay2">
+                        <div class="sec4_text_head">
+                            <h2><small>$ </small> 39</h2>
+                            <small>per month</small>
+                        </div>
+                        <div class="sec4_text_span">BUSINESS</div>
+                        <p>15 Projects<br>1 GB Storage<br>Notification settings<br>Password protection</p>
+                        <button class="btn pricepinkbtn mb-5 wow pulse">Buy Now</button>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+
+                    <div class="sec4_texts wow fadeInUp item_delay3">
+                        <div class="sec4_text_head">
+                            <h2><small>$ </small> 59</h2>
+                            <small>per month</small>
+                        </div>
+                        <div class="sec4_text_span">PREMIUM</div>
+                        <p>30 Projects<br>2 GB Storage<br>Notification settings<br>Password protection</p>
+                        <button class="btn pricepinkbtn mb-5 wow pulse">Buy Now</button>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="sec4_texts wow fadeInUp item_delay4">
+                        <div class="sec4_text_head">
+                            <h2><small>$ </small> 99</h2>
+                            <small>per month</small>
+                        </div>
+                        <div class="sec4_text_span">UNLIMITED</div>
+                        <p>Unlimited Projects<br>Unlimited Storage<br>Notification settings<br>Password protection</p>
+                        <button class="btn pricepinkbtn mb-5 wow pulse">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------SECTION 4 ENDS------------->
+
+    <!--------------SECTION 5 STARTS------------->
+    <section class="sec5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="media sec5media">
+                        <img class="mr-3 wow jackInTheBox" src="images/f1.png" alt="f1">
+                        <div class="media-body wow zoomIn">
+                            <h5 class="mt-0">HIGH RESOLUTION</h5>
+                            <p>Lorem ipsum dolor sit amet, adipisicing <br> elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="media sec5media">
+                        <img class="mr-3 wow jackInTheBox" src="images/f2.png" alt="f2">
+                        <div class="media-body wow zoomIn">
+                            <h5 class="mt-0">PHOTOGRAPHY</h5>
+                            <p>Lorem ipsum dolor sit amet, adipisicing <br> elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="media sec5media">
+                        <img class="mr-3 wow jackInTheBox" src="images/f3.png" alt="f3">
+                        <div class="media-body wow zoomIn">
+                            <h5 class="mt-0">EASY TO CUSTOMIZE</h5>
+                            <p>Lorem ipsum dolor sit amet, adipisicing <br> elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="media sec5media">
+                        <img class="mr-3 wow jackInTheBox" src="images/f4.png" alt="f4">
+                        <div class="media-body wow zoomIn">
+                            <h5 class="mt-0">24/7 SUPPORT</h5>
+                            <p>Lorem ipsum dolor sit amet, adipisicing <br> elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="media sec5media">
+                        <img class="mr-3 wow jackInTheBox" src="images/f5.png" alt="f5">
+                        <div class="media-body wow zoomIn">
+                            <h5 class="mt-0">POWERFULL THEME</h5>
+                            <p>Lorem ipsum dolor sit amet, adipisicing <br> elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="media sec5media">
+                        <img class="mr-3 wow jackInTheBox" src="images/f6.png" alt="f6">
+                        <div class="media-body wow zoomIn">
+                            <h5 class="mt-0">SEO OPTIMIZATION</h5>
+                            <p>Lorem ipsum dolor sit amet, adipisicing <br> elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!--------------SECTION 5 ENDS------------->
+
+    <!--------------SECTION 6 STARTS------------->
+    <section class="sec6 d-flex align-items-center">
+        <div class="container">
+            <div class="row  wow zoomIn">
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    <h1>Became A Part Of <b class="mache">Mache</b> Community Today</h1>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 lefty_center">
+                    <button class="btn whitebtn">join us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------SECTION 6 ENDS------------->
+    <!--------------SECTION 7 STARTS------------->
+    <section class="sec7 d-flex align-items-center">
+        <div class="container">
+            <h1 class="wow fadeInDown">Our Latest Updates</h1>
+            <hr>
+            <p class="wow fadeIn delay_small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <br>et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio</p>
+
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="card sec7_card wow pulse">
+
+                        <a href="#">
+                            <div class="pink_card">
+                                <img class="card-img-top" src="images/update1.png" alt="up1">
+
+                                <div class="searchmiddle">
+                                    <img src="images/search.png" alt="search">
+                                </div>
+
+                            </div>
+                        </a>
+
+                        <div class="card-body">
+                            <h4 class="card-title">LOREM IPSUMA DOLOR SIT</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, <br>consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="card sec7_card wow pulse">
+
+                        <a href="#">
+                            <div class="pink_card">
+                                <img class="card-img-top" src="images/update2.png" alt="up2">
+
+                                <div class="searchmiddle">
+                                    <img src="images/search.png" alt="search">
+                                </div>
+
+                            </div>
+                        </a>
+
+                        <div class="card-body">
+                            <h4 class="card-title">LOREM IPSUMA DOLOR SIT</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, <br>consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="card sec7_card wow pulse">
+
+                        <a href="#">
+                            <div class="pink_card">
+                                <img class="card-img-top" src="images/update3.png" alt="up3">
+
+                                <div class="searchmiddle">
+                                    <img src="images/search.png" alt="search">
+                                </div>
+
+                            </div>
+                        </a>
+
+                        <div class="card-body">
+                            <h4 class="card-title">LOREM IPSUMA DOLOR SIT</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, <br>consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="card sec7_card wow pulse">
+
+                        <a href="#">
+                            <div class="pink_card">
+                                <img class="card-img-top" src="images/update4.png" alt="up4">
+
+                                <div class="searchmiddle">
+                                    <img src="images/search.png" alt="search">
+                                </div>
+
+                            </div>
+                        </a>
+
+                        <div class="card-body">
+                            <h4 class="card-title">LOREM IPSUMA DOLOR SIT</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, <br>consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="card sec7_card wow pulse">
+
+                        <a href="#">
+                            <div class="pink_card">
+                                <img class="card-img-top" src="images/update5.png" alt="up5">
+
+                                <div class="searchmiddle">
+                                    <img src="images/search.png" alt="search">
+                                </div>
+
+                            </div>
+                        </a>
+
+                        <div class="card-body">
+                            <h4 class="card-title">LOREM IPSUMA DOLOR SIT</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, <br>consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="card sec7_card wow pulse">
+
+                        <a href="#">
+                            <div class="pink_card">
+                                <img class="card-img-top" src="images/update6.png" alt="up6">
+
+                                <div class="searchmiddle">
+                                    <img src="images/search.png" alt="search">
+                                </div>
+
+                            </div>
+                        </a>
+
+                        <div class="card-body">
+                            <h4 class="card-title">LOREM IPSUMA DOLOR SIT</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, <br>consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="showmore wow bounceIn">
+                <a href="#">Show more <br><i class="fas fa-chevron-down"></i></a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!--------------SECTION 7 ENDS------------->
+
+
+
+    <!--------------SECTION 8 STARTS------------->
+    <section class="sec8 d-flex align-items-center" style="background-image: url(images/freepsdtemplate.png);">
+
+        <div class="container">
+            <h1 class="wow zoomIn">Mache Free PSD Template</h1>
+            <hr>
+            <p class="wow fadeIn delay_small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore<br> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<br> aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse<br>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, <br>sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <button class="btn pinkbtn mt-4 wow pulse">Show More</button>
+
+        </div>
+
+    </section>
+    <!--------------SECTION 8 ENDS------------->
+    <!--------------SECTION 9 STARTS------------->
+    <section class="sec9">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img src="images/Safari%20Browser.png" alt="safari" class="img-fluid wow zoomIn">
+
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h1 class="wow bounceInRight">Please share some love <br>by appreciate it and download! </h1>
+                    <hr>
+
+                    <p class="wow fadeIn delay_smaller">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br>ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<br> aliquip ex ea commodo consequat. Duis aute irure dolor in<br> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla<br> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in </p>
+
+                    <button class="btn pricepinkbtn mb-5 wow pulse">Download Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--------------SECTION 9 ENDS------------->
+    <!---------------FOOTER STARTS-------------->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="row wow zoomIn">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 lefty_center">
+                    <p>&copy; 2018 COPYRIGHT MACHE TEMPLATE</p>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 righty_center">
+                    <p>DESIGNED BY <strong>Anika <b class="pinktxt">.</b> Salsabil</strong></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---------------FOOTER ENDS-------------->
+
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/countdown-timer.js"></script>
+
+</body>
+
+</html>

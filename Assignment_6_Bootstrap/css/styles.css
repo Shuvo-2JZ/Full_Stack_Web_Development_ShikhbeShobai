@@ -1,0 +1,358 @@
+
+/*Anika Salsabil*/
+/*body starts*/
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*common classes start*/
+.basic-bluetxt {
+    color: #0095F7;
+}
+
+.basic-blue {
+    background-color: #0095F7;
+}
+
+.lefty_center {
+    text-align: left;
+}
+
+.righty_center {
+    text-align: right;
+}
+
+/*common classes ends*/
+
+/*navigation starts*/
+.navigation {
+    font-size: 13px;
+
+}
+
+.navbar {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.nav-link {
+    color: #3A3F52;
+}
+
+.trybtn {
+    font-size: 13px;
+    background-color: #6772E5;
+}
+.navbar-toggler{
+     background-color: #6772E5;
+}
+.menubar{
+    color: white;
+}
+
+
+
+/*navshadow starts*/
+.p-3 {
+    padding: 5px !important;
+}
+
+.mb-5 {
+    margin-bottom: 0px !important;
+}
+
+/*navshadow ends*/
+
+
+.logo {
+    font-size: 20px;
+    
+}
+
+/*navigation ends*/
+
+/*sec1 starts*/
+.bgcolor_grey_sec1 {
+    background-color: #F6F8F9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.iphone {
+    text-align: left;
+    width: 400px;
+}
+
+
+.sec1_texts {
+    padding-top: 140px;
+}
+
+.sec1_h1 {
+    font-size: 40px;
+    margin-top: -10px;
+    color: #3A3F52;
+}
+
+.sec1_h1-bold {
+    font-size: 40px;
+    margin-top: -20px;
+    color: #3A3F52;
+}
+
+.sec1_p,
+.sec2_p,
+.sec3_p,
+.sec4_p {
+    color: #95A7BF;
+    padding-bottom: 30px;
+}
+
+/*sec1 ends*/
+
+/*sec2 starts*/
+.bgcolor_white_sec2 {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec2_texts {
+    padding-top: 100px;
+}
+
+.sec2_h1,
+.sec3_h1 {
+    font-size: 35px;
+    margin-top: -20px;
+    margin-bottom: 2px;
+    color: #3A3F52;
+}
+
+/*sec2 ends*/
+
+/*sec3 starts*/
+.bgcolor_grey_sec3 {
+    background-color: #F6F8F9;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.card {
+    padding: 20px !important;
+    margin: 2px !important;
+
+}
+
+.card_rounded {
+    border-radius: 25px;
+}
+
+.designation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.designation h2 {
+    color: #3A3F52;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.designation p {
+    color: #9CA4B9;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+
+.badge-pill {
+    padding: 5px 13px;
+    font-size: 11px;
+}
+
+.star {
+    font-size: 11px;
+}
+
+.des_info {
+    color: #595959;
+}
+
+
+
+/*sec3 ends*/
+
+/*sec4 starts*/
+
+.sec4 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.sec4_h1 {
+    font-size: 35px;
+    margin-bottom: 2px;
+    color: #3A3F52;
+}
+
+.sec4 h1 {
+    color: #3A3F52;
+    font-weight: bold;
+}
+
+
+.prc {
+    color: #53627C;
+    font-size: 15px;
+
+}
+
+.pricing,
+.pricing_ {
+    padding-left: 0px;
+}
+
+.pricing li,
+.pricing_ li {
+    list-style: none;
+    font-size: 13.5px;
+    color: #90A4B6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pricing i {
+    color: #6772E5;
+}
+
+.pricing_ i {
+    color: #0095F7;
+}
+
+.mt__1 {
+    margin-top: -10px;
+}
+
+.demo_btn,
+.other_btn {
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.demo_btn {
+    background-color: #6772E5;
+}
+
+.other_btn {
+    background-color: #0095F7;
+}
+
+
+/*sec4 ends*/
+
+/*sec5 starts*/
+.sec5 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sec5_h1 {
+    font-size: 35px;
+    margin-top: -20px;
+    margin-bottom: 2px;
+
+}
+
+.wht-btn {
+    background-color: white;
+    color: #0095F7;
+}
+
+
+
+/*sec5 ends*/
+
+
+
+
+
+/*footer starts*/
+.bgcolor_dark_footer {
+    background-color: #292C31;
+    color: #96ACB7;
+}
+
+.bgcolor_dark_footer ul {
+    padding-left: 0px;
+
+}
+
+.footer_item {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.bgcolor_dark_footer li {
+    list-style: none;
+    font-size: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+
+}
+
+.bgcolor_dark_footer a {
+    color: #62656A;
+}
+
+.bgcolor_dark_footer p {
+    color: #62656A;
+    font-size: 13.5px;
+}
+
+.bgcolor_dark_footer h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.line {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #96ACB7;
+}
+
+
+.social_icons li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.copyright{
+    padding-top: 10px;
+}
+
+
+/*footer ends*/
+
+
+
+
+
+
+
+/*whoever you are, copying my code.. be aware. I'm watching you :) Anika Salsabil*/
